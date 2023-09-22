@@ -1,7 +1,8 @@
 from g_calendar import event_parser
 
 def main():
-    event_parser.get_ten_events()
+    cal_man = event_parser.calendar_man()
+    cal_man.get_ten_events()
     pass
 
 if __name__ == "__main__":
